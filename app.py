@@ -705,21 +705,19 @@ def render_about() -> None:
     st.title("About")
     st.markdown(
         """
-        **Smart Purchase Request Assistant** is a small web app that replaces a shared spreadsheet workflow
-        for student purchase requests. It walks students through what to submit, stores requests in a local
-        file, and gives coordinators a dashboard to track purchases, receipts, and refunds.
+        **Smart Purchase Request Assistant** is a small web app built for structured team requests and
+        coordinator follow-up, replacing a shared spreadsheet workflow.
 
         **Who it's for**
 
-        - **Students** submitting purchase requests with the information their program needs.
-        - **Coordinators** reviewing requests, placing orders using submitted links, and attaching receipts.
+        - **Students** in programs that need a consistent way to send requests to their team contact.
+        - **Coordinators** who review submissions and keep records in one place.
 
-        **Global Innovation Exchange (GIX)**
+        **Global Innovation Exchange (GIX)** — University of Washington
 
-        Learn more about GIX at the University of Washington:
+        [Visit gix.uw.edu](https://gix.uw.edu)
         """
     )
-    st.link_button("Visit gix.uw.edu", "https://gix.uw.edu")
 
 
 def main() -> None:
